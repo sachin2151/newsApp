@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
     return SplashScreenView(
     navigateRoute: const NewsScreen(),
       duration: 5000,
-      imageSize: 80,
+      imageSize: 50,
       imageSrc: "assets/images/splash_logo.jpeg",
       text: "Top News Headlines",
       textType: TextType.ColorizeAnimationText,
